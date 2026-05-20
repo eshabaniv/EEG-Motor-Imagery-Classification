@@ -31,13 +31,3 @@ htmlcov/
 
 # Temporary files
 *.log
-
-# Model checkpoints (optional)
-# Uncomment if models become large
-# *.pkl
-# *.h5
-# *.keras
-
-# Large datasets (optional)
-# *.npy
-# *.npz
