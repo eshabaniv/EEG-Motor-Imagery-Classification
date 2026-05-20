@@ -1,0 +1,5 @@
+score,time,samples,samples_test,n_classes,subject,session,channels,n_sessions,dataset,pipeline
+0.9502041,0.12535432,144.0,28.0,2.0,1,0train,22,2,BNCI2014-001,CSP + SVM
+0.9636735,0.10910392,144.0,28.0,2.0,1,1test,22,2,BNCI2014-001,CSP + SVM
+0.9397279,0.12231873,144.0,28.0,2.0,1,0train,22,2,BNCI2014-001,CSP + LDA
+0.94632655,0.10716578,144.0,28.0,2.0,1,1test,22,2,BNCI2014-001,CSP + LDA
