@@ -6,9 +6,9 @@ EEG motor imagery classification project using Common Spatial Pattern (CSP) feat
 
 ## Overview
 
-This project demonstrates a basic brain–computer interface (BCI) workflow for EEG motor imagery classification.
+This project demonstrates a basic brain–computer interface (BCI) workflow for EEG motor imagery classification using publicly available EEG recordings.
 
-The project uses the publicly available BNCI2014_001 EEG dataset and evaluates two classification pipelines:
+The project compares two classification pipelines:
 
 - CSP + LDA
 - CSP + SVM
@@ -20,7 +20,6 @@ The notebook includes:
 - classification
 - evaluation
 - result visualisation
-- model export
 
 ---
 
@@ -51,9 +50,7 @@ EEG-Motor-Imagery-Classification/
 └── results/
     ├── eeg_motor_imagery_results.csv
     ├── eeg_pipeline_summary.csv
-    ├── eeg_pipeline_comparison.png
-    ├── csp_lda_pipeline.pkl
-    └── csp_svm_pipeline.pkl
+    └── eeg_pipeline_comparison.png
 ```
 
 ---
@@ -101,7 +98,7 @@ The project compares EEG motor imagery classification performance between:
 - CSP + LDA
 - CSP + SVM
 
-Performance summaries, exported pipelines, and visualisations are automatically saved in the `results/` folder.
+Performance summaries and visualisations are automatically saved in the `results/` folder.
 
 ---
 
